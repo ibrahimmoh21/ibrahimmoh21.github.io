@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% block title %}Contact{% endblock title %}
+{% block body  %}
+    <style>
+      .text-center{
+        position: absolute;
+        bottom: 30%;
+        left: 0%;
+        z-index: 0;
+        color: white;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+      }
+      .responsive {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+    <style>
+      .logo {
+        display: inline-block;
+        vertical-align: top;
+        width: 70px;
+        height: 40px;
+        margin-right: 20px;
+        margin-top: 15px;    /* if you want it vertically middle of the navbar. */
+      }
+    </style>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://images.unsplash.com/photo-1528747045269-390fe33c19f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"class="d-block h-300 w-100"  style="max-height:80vh;" alt="...">
+    </div>
+  </div>
+</div>
+
+<hr>
+<h3 class="display-5 link-body-emphasis">Come visit us in person to discover our latest products and special offers.</h3>
+<hr>
+<div class>
+  
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.9266889177848!2d55.310237075384265!3d25.27305147766213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43db7a7cf2ed%3A0xbc6b4a24d9ba7968!2sSHANOOR%20TRADING%20CO%20LLC!5e0!3m2!1sen!2sae!4v1705385838913!5m2!1sen!2sae" width="1500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+
+</div>
+
+<hr>
+
+
+<footer class="text-muted">
+  <div class="container">
+    <img class="logo" src="../static/logo1.jpg" class="d-block w-50" alt="...">
+    <h4>Contact us</h4>
+    <h5>Phone : +9714 222 0251 / +97150 503 3295</h5>
+    <h5>Email : info@shanoortrading.com </h5>
+    <h5>Follow Us : <a href="https://www.linkedin.com/company/shanoor-trading-co-llc/"> LinkedIn</a> </h5>
+  </div>
+</footer>
+
+{% endblock body  %}
